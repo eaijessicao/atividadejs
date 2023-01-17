@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #1F282E;
+    color: white;
+}
+
+article {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+input {
+    width: 530px;
+    height: 20px;
+    border-radius: 5px;
+}
+.btn-ag {
+    
+    color: white;
+    background: #0287D6;
+    cursor: pointer;
+    width: 540px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 3px 28px;
+    border-radius: 5px;
+    height: 44px;
+    margin-top: 1rem;
+}
+
+.ag-result, .ag-result1 {
+display: none;
+ 
+ flex-direction: column;
+ background-color: #007C30;
+ margin: 2rem;
+ padding: 57px 46px;
+}

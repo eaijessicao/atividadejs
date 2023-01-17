@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/css/estilo.css">
+</head>
+<body>
+    <article>
+   <main>
+    <img src="./Assets/img/logo 1.png" alt="AG-LOGO">
+    <h1> Qual é a melhor opção?</h1>
+   </main>
+
+ <form onsubmit="calcular(event)" class="form">
+   <label for="alcool" class="label-text">Alcool (preço por litro)</label>
+  
+    <input id="alcool" type="number" 
+    placeholder="3.52"
+    min="1"
+    step="0.01"
+    required/>
+
+   <label for="gasolina" class="label-text">Gasolina (preço por litro)</label>
+    <input id="gasolina" type="number" 
+    placeholder="5.12"
+    min="1"
+    step="0.01"
+    required/>
+    <input type="submit" class="btn-ag" value="Calcular">
+
+   </form>
+   <section class="ag-result">
+    <h2>Compensa Usar:</h2> 
+    <span class="alcoolspan">Alcool:</span>
+    <span class="gasolinaspan">Gasolina:</span>
+   </section>
+
+   <!-- <section class="ag-result1">
+    <h2>Compensa Usar Gasolina</h2> 
+    <span>Alcool 3.52</span>
+    <span>Gasolina 5.12</span>
+   </section> -->
+
+</article>
+
+<img 
+style="position: fixed;
+right: 5rem;
+bottom: 0;" 
+src="./Assets/img/info 1.png"
+ alt="AG-info">
+
+ <script src="/Assets/js/ag.js"></script>
+</body>
+</html>
